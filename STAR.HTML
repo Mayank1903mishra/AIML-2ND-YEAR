@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Pattern</title>
+    <script>
+        function star(s) {
+            for (let i = 0; i < s; i++) {
+                for (let j = 0; j <= i; j++) {
+                    document.write(" * ");
+                }
+                document.write("<br>");
+            }
+        }
+        function star_1(s) {
+            for (let i = 0; i < s; i++) {
+                for (let j = 0; j <= i; j++) {
+                    document.write(" * ");
+                }
+                document.write("<br>");
+            }
+            for(let i=0;i<s;i++){
+                for(let j=5;j>0;j--){
+                    document.write(" * ");
+                }
+                document.write("<br>")
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <button onclick="star(5)">Show Stars</button>
+    <br>
+    <button onclick="star_1(5)">Show Stars</button>
+    <br>
+
+</body>
+</html>

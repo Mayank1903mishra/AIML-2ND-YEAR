@@ -1,0 +1,29 @@
+
+body {
+
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+
+.form-container {
+  background: white;
+ 
+ 
+  text-align: center;   
+  
+width: 500px;
+height: auto;
+
+}
+
+
+
+label {
+  display: block;
+}
+
+input, select {
+  padding: 8px;
+}

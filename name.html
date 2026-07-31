@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fn(f){
+            var first = f;
+            return first;
+        }
+        function ln(l){
+            var last = l;
+            return last;
+        }
+        function display(){
+            var firstName = fn("vikas");
+            var lastName = ln("choaudary");
+            console.log(firstName + " " + lastName);
+            // alert(firstName + " " + lastName); 
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="display()" value="Show Name">
+</body>
+</html>
